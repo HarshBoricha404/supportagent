@@ -1,0 +1,750 @@
+{
+ "T-2001": {
+  "ticketId": "T-2001",
+  "triage": {
+   "category": "bug",
+   "urgency": "medium",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Academy student Aarav Mehta reports the Sunday DSA class recording is missing from his dashboard and asks for it to be checked."
+  },
+  "draft": {
+   "reply": "Hi Aarav,\n\nThanks for reaching out, and sorry for the trouble finding your Sunday DSA class recording.\n\nRecordings of every live class are normally uploaded to your dashboard within 24 hours. Since it has been almost a day, I'd suggest checking again shortly, as it may still appear within that window. If it is still missing after 24 hours, we can raise a request with the content team to look into it.\n\nIf the recording is still not there after the 24-hour mark, just reply to this email and we'll raise the request with the content team for you right away. Also, a quick reminder that you'll have access to recordings for 12 months from your batch start date, and you can play them at up to 2x speed with searchable timestamps.\n\nHappy learning, Aarav!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.85,
+   "source_doc_ids": [
+    "KB-07"
+   ],
+   "reasoning": "KB-07 covers the 24-hour upload window and the process of raising a request with the content team if the recording is still missing afterwards, which fits this ticket, though the 24-hour mark hasn't quite passed yet."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2004": {
+  "ticketId": "T-2004",
+  "triage": {
+   "category": "account",
+   "urgency": "medium",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Customer completed the DevOps program and cleared the capstone but has not received their certificate and asks when it will be sent."
+  },
+  "draft": {
+   "reply": "Hi Sneha,\n\nCongratulations on completing the DevOps program and clearing your capstone! That's a great achievement.\n\nHere's what our certificate process looks like: certificates are emailed as a PDF within 10 business days of your final evaluation. A verification link is included so employers can confirm it. Since you completed the program last month, it's worth checking your inbox (and spam or promotions folders) for the email, using the address you enrolled with.\n\nA certificate of completion is issued to learners who attend at least 75% of live classes and score 60% or more on the capstone project. You've mentioned clearing the capstone, so the other thing to confirm is that your live class attendance met the 75% requirement.\n\nI don't have visibility into your final evaluation date or certificate status from the information I have, so I can't tell you the exact send date. I'll flag this for a team member, who will follow up with you on the status of your certificate.\n\nThank you for your patience, Sneha, and congratulations again!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.55,
+   "source_doc_ids": [
+    "KB-11"
+   ],
+   "reasoning": "KB-11 gives the 10-business-day timeline and eligibility criteria, but the customer's final evaluation date and certificate status are unknown, and the delay may need staff to check, so a follow-up is promised."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2002": {
+  "ticketId": "T-2002",
+  "triage": {
+   "category": "account",
+   "urgency": "high",
+   "sentiment": "frustrated",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Student Priya Nair cannot log in because the password reset email never arrives, and she has an assignment due tomorrow."
+  },
+  "draft": {
+   "reply": "Hi Priya,\n\nI'm sorry for the trouble, and I understand how stressful this is with an assignment due tomorrow. Let's get you sorted out.\n\nHere is what to check for the password reset email:\n\n1. Use the Forgot Password link on the login page and make sure you enter your enrolled email address. A reset email sent to any other address won't arrive.\n2. Check your spam folder, which you've already done. The reset link is valid for only 30 minutes, so please use it soon after it arrives.\n3. Avoid too many failed login attempts. Your account is temporarily locked for 15 minutes after 5 failed attempts, so if you've been trying to log in repeatedly, please wait 15 minutes before trying again.\n\nIf you may have registered with a different or outdated email address, our support team can update your registered email. For that, we first need to verify your phone number via OTP. Just reply to this email and let us know, and we'll get that started.\n\nAbout your assignment: if you can't log in in time, you can request one extension of up to 3 days per module with a valid reason such as illness or work travel. Late submissions without an extension lose 10% of the score per day, so please do request an extension if needed. I can't confirm whether a login problem counts as a valid reason, so a team member will need to review that.\n\nYou've got this, Priya. Let us know how it goes!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.72,
+   "source_doc_ids": [
+    "KB-12",
+    "KB-09"
+   ],
+   "reasoning": "KB-12 covers the reset troubleshooting and email update via OTP, and KB-09 covers extensions, but the KB doesn't say whether a login issue counts as a valid extension reason and the email update needs staff action."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2005": {
+  "ticketId": "T-2005",
+  "triage": {
+   "category": "account",
+   "urgency": "medium",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Academy student asks to reschedule today's 7 PM mentor session to tomorrow or the day after due to a work client call."
+  },
+  "draft": {
+   "reply": "Hi Karthik,\n\nThanks for reaching out, and no worries, this is easy to sort out!\n\nYou can reschedule your mentor session yourself from the dashboard at no charge, as long as you do it at least 6 hours before the slot. Since your session is at 7:00 PM today, please make the change by 1:00 PM today. Open your mentor session on the dashboard and pick a new slot. I can't confirm in advance which slots are open tomorrow or the day after, so you'll see the available options there.\n\nA couple of things to keep in mind:\n- You can reschedule up to 3 times per month. Any further changes need support approval.\n- If it's already past 1:00 PM, just reply here and a team member will follow up to see what can be done. I can't promise an exception from my side.\n\nGood luck with your client call!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.75,
+   "source_doc_ids": [
+    "KB-08"
+   ],
+   "reasoning": "KB-08 covers the 6-hour no-charge rescheduling window and the 3-per-month limit, but it does not cover slot availability or late requests, so the answer is only partly certain."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2003": {
+  "ticketId": "T-2003",
+  "triage": {
+   "category": "sales",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": true,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Prospect Rohan Verma, a Java backend developer with 3 years of experience, asks which program suits a move to a product company and what EMI options are available."
+  },
+  "draft": {
+   "reply": "Hi Rohan,\n\nThank you for your interest in Scaler (demo data)! It's great that you're planning your move to a product company.\n\nHere's how our programs compare, so you can see what fits best:\n\n- Academy (₹3,50,000): a 6-month full-stack and DSA track with 3 live classes per week.\n- Data Science (₹2,85,000): a 9-month program covering Python, statistics, ML and MLOps.\n- DevOps (₹1,80,000): a 7-month program covering Linux, Docker, Kubernetes, CI/CD and cloud on AWS.\n\nI can't say for certain which one is the best match for you, because that depends on your goals. If you want to deepen your DSA and full-stack skills, Academy is the track built around that. If you're curious about ML or infrastructure work, the Data Science or DevOps programs may interest you. During admissions, a 20-minute counselling call is used to match you to the right program, which is a good place to talk through your Java background and goals.\n\nEMI options:\n- No-cost EMI is available for 6, 12 and 18 months through partner lenders, subject to credit approval.\n- A one-time booking amount of ₹10,000 locks your seat and is adjusted against the final fee.\n- Longer tenures such as 18 months may carry a small processing fee of ₹999.\n\nNext steps: admission starts with a 60-minute online screening test covering basic logic and programming aptitude. Shortlisted candidates then have the counselling call. Offer letters are issued within 2 business days of a successful call. Also, merit scholarships of 10% to 30% of the program fee are awarded based on your screening test score.\n\nA quick note: we don't guarantee any job, salary or specific outcome. Placement support includes resume reviews, 4 mock interviews, LinkedIn profile coaching and referrals to hiring partners for 12 months after program completion.\n\nHappy to help with anything else, Rohan!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.82,
+   "source_doc_ids": [
+    "KB-01",
+    "KB-02",
+    "KB-04",
+    "KB-05",
+    "KB-10"
+   ],
+   "reasoning": "The KB covers program overviews, fees, EMI options and the admission/counselling process, but a definitive program recommendation is left to the counselling call, so I avoided inventing one."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2008": {
+  "ticketId": "T-2008",
+  "triage": {
+   "category": "sales",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": true,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Prospective Data Science applicant from Mumbai (2023 graduate) asks whether scholarships are available and how they are awarded."
+  },
+  "draft": {
+   "reply": "Hi Meera,\n\nThank you for your interest in our Data Science program! Yes, we do offer scholarships. Here is how they work:\n\n- Merit scholarships: These range from 10% to 30% of the program fee and are awarded based on your score in the online screening test.\n- Women-in-tech scholarship: Up to ₹25,000 is available each cohort.\n\nA few things to keep in mind:\n- Scholarships cannot be combined with other discounts.\n- They must be claimed before you enroll.\n- Decisions are made by the admissions committee and are final.\n\nAs a graduate, you meet our eligibility criteria (a bachelor's degree). The admission process starts with a 60-minute online screening test covering basic logic and programming aptitude. If you are shortlisted, you will have a 20-minute counselling call to match you to the right program, and offer letters are issued within 2 business days of a successful counselling call.\n\nFor reference, the Data Science program fee is ₹2,85,000 (inclusive of GST), and no-cost EMI options are available for 6, 12 and 18 months, subject to credit approval.\n\nWishing you all the best with the screening test, Meera!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.93,
+   "source_doc_ids": [
+    "KB-05",
+    "KB-04",
+    "KB-02"
+   ],
+   "reasoning": "KB-05 directly covers scholarship types and how they are decided via screening score, with KB-04 and KB-02 supplying eligibility, process and fee context."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2006": {
+  "ticketId": "T-2006",
+  "triage": {
+   "category": "refund",
+   "urgency": "medium",
+   "sentiment": "neutral",
+   "churn_risk": true,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Ananya Gupta enrolled in the Data Science program 3 days ago, paid a ₹10,000 booking amount, and requests a refund because her family situation has changed and she cannot continue."
+  },
+  "draft": {
+   "reply": "Hi Ananya,\n\nThank you for reaching out, and I'm sorry to hear your family situation has changed. I hope everything is okay.\n\nGood news on timing: you enrolled 3 days ago, which falls within our 7-day window. Under our refund policy, refunds requested within 7 days of enrollment are eligible for a 100% refund.\n\nHere is what happens next:\n- Refunds above ₹10,000 need manager approval before processing. Your booking amount is exactly ₹10,000, so it does not go above that threshold. Our team will still confirm and process your request on their end.\n- Once a refund is approved, it is credited to your original payment method within 7-10 business days.\n\nA team member will follow up to confirm the processing of your refund request. Please keep an eye on your inbox, and since you're within the 7-day window, there is no need to worry about timing.\n\nTake care, Ananya, and we wish you and your family all the best.\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.8,
+   "source_doc_ids": [
+    "KB-03",
+    "KB-02"
+   ],
+   "reasoning": "The request is within the 7-day 100% refund window and the ₹10,000 amount is not above the manager-approval threshold, though staff still need to actually process the refund."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2010": {
+  "ticketId": "T-2010",
+  "triage": {
+   "category": "billing",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Customer requests an invoice for her second EMI payment including her company GSTIN, as her employer is reimbursing the program fee."
+  },
+  "draft": {
+   "reply": "Hi Divya,\n\nThanks for reaching out, and great to hear your company is supporting your learning journey!\n\nHere is how invoices and GSTIN work for us:\n\n1. Automatic invoices: A tax invoice is generated automatically after each payment and emailed within 48 hours. If your second EMI payment has gone through, your invoice should reach you within that window. You can also download a duplicate anytime from the Payments section of your dashboard.\n\n2. Adding your company GSTIN: A GSTIN can be added only if it is requested within 15 days of the payment. To do this, we need the legal entity name and address of your company along with the GSTIN. You've shared the GSTIN (29ABCDE1234F1Z5), so please reply with your company's registered legal entity name and full address, and we will take it forward.\n\n3. Timing matters: Please check the date of your second EMI payment. If it is within the 15-day window, we are good to go. If the window has passed, a team member will need to review your request and follow up with you, as I can't confirm an exception.\n\nAlso, for reference, GST at 18% is already included in your listed program fee.\n\nWe're happy to help further once we have those details!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.72,
+   "source_doc_ids": [
+    "KB-14"
+   ],
+   "reasoning": "KB-14 covers invoice timing and GSTIN addition (within 15 days with legal entity name and address), but the payment date and entity details are missing and staff action is needed to issue the updated invoice."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2007": {
+  "ticketId": "T-2007",
+  "triage": {
+   "category": "other",
+   "urgency": "high",
+   "sentiment": "angry",
+   "churn_risk": true,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Academy student paying ₹3.5 lakh says class quality has dropped and doubts go unanswered, threatens to quit and post negative reviews unless fixed this week."
+  },
+  "draft": {
+   "reply": "Hi Vikram,\n\nThank you for telling us this, and I'm sorry your experience in the Academy program has been so frustrating. Chaotic classes and unanswered doubts are not the standard we want for you, especially given the time and money you've invested.\n\nI don't want to give you a generic answer, so I've flagged your message as high priority. A team member will follow up with you personally to understand what has been going wrong and to look at what can be done this week.\n\nTo help them act quickly, it would be great if you could reply with:\n- The specific classes or dates where things felt chaotic\n- Examples of doubts that went unanswered, and where you raised them\n\nIn the meantime, here are some things already available to you:\n- Your 1:1 mentor session (45 minutes, every two weeks) is a good place to raise doubts directly. You can reschedule it from the dashboard up to 6 hours before the slot.\n- Recordings of every live class are uploaded to your dashboard within 24 hours, with searchable timestamps, so you can revisit anything that felt rushed.\n\nWe value your feedback and want to make this right.\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.3,
+   "source_doc_ids": [
+    "KB-08",
+    "KB-07"
+   ],
+   "reasoning": "The KB has no policy on class-quality complaints, so a human must follow up with this angry, high-churn-risk learner; the reply only acknowledges the issue and points to existing mentor and recording resources."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2009": {
+  "ticketId": "T-2009",
+  "triage": {
+   "category": "other",
+   "urgency": "medium",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Arjun Pillai missed the DevOps Kubernetes assignment deadline due to dengue and requests a few extra days."
+  },
+  "draft": {
+   "reply": "Hi Arjun,\n\nI'm so sorry to hear you were down with dengue. I hope you're recovering well and getting plenty of rest.\n\nIllness is a valid reason for an extension. Here is how extensions work:\n- You can request one extension of up to 3 days per module.\n- If you need more than 3 days, the program manager has to approve it.\n- Late submissions without an extension lose 10% of the score per day.\n\nYour deadline has already passed, and I can't confirm from my information whether an extension can be applied after the due date. To help our team review this quickly, please reply with the assignment or module name and the number of extra days you need. A team member will follow up to confirm whether the extension can be applied to your Kubernetes assignment, so you don't lose marks for being unwell.\n\nTake care and get well soon!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.55,
+   "source_doc_ids": [
+    "KB-09"
+   ],
+   "reasoning": "KB-09 confirms illness is a valid reason for a 3-day extension, but it doesn't say whether one can be granted after the deadline has passed, so staff need to confirm."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2012": {
+  "ticketId": "T-2012",
+  "triage": {
+   "category": "how-to",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Customer asks for the exact timings of the Academy weekend batch to confirm before discussing the schedule with their manager."
+  },
+  "draft": {
+   "reply": "Hi Isha,\n\nThanks for reaching out, and great that you're planning ahead with your manager!\n\nHere are the exact weekend batch timings:\n\n- Days: Saturday and Sunday\n- Time: 11:00 AM to 2:00 PM IST\n\nA few helpful notes for your planning:\n- Live class links appear on your learner dashboard 15 minutes before each session.\n- Any holiday schedule changes are announced by email at least 3 days in advance.\n- If you ever miss a session, recordings of every live class are uploaded to the dashboard within 24 hours.\n\nIf you'd like, you can also mention to your manager that the Academy program includes 3 live classes per week. Please let us know if there's anything else we can help you confirm.\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.8,
+   "source_doc_ids": [
+    "KB-06",
+    "KB-07"
+   ],
+   "reasoning": "KB-06 directly gives the weekend batch timings (Sat-Sun, 11 AM-2 PM IST); the Academy '3 live classes per week' mention is from KB-01 and slightly overlaps with the weekend-only schedule, so I kept the confidence just below certain."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2011": {
+  "ticketId": "T-2011",
+  "triage": {
+   "category": "refund",
+   "urgency": "medium",
+   "sentiment": "frustrated",
+   "churn_risk": true,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Rahul Deshmukh enrolled in the Data Science program 40 days ago, paid ₹2,85,000 in full, says the content doesn't match the brochure, and requests a complete refund."
+  },
+  "draft": {
+   "reply": "Hi Rahul,\n\nThank you for writing in, and I'm sorry the Data Science program hasn't matched what you expected from the brochure. I understand how frustrating that is, and I want to be upfront about what our policy allows.\n\nOur refund policy offers a 100% refund if requested within 7 days of enrollment, and a 50% refund if requested between day 8 and day 14. No refund is available after 14 days. Since you enrolled 40 days ago, I'm unfortunately not able to offer a refund under the standard policy.\n\nI'm also not able to promise any exception. I've noted your feedback about the content and the brochure, and a team member will follow up with you to discuss your concerns and what options may be available.\n\nIn the meantime, if there are specific parts of the content or program that feel like a mismatch, please reply with details so the team can look into them properly.\n\nThank you for your patience, Rahul.\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.5,
+   "source_doc_ids": [
+    "KB-03"
+   ],
+   "reasoning": "The KB clearly states no refund after 14 days, but the customer is frustrated with churn risk and any exception or concern about brochure mismatch needs human follow-up, so confidence is moderate-low."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2013": {
+  "ticketId": "T-2013",
+  "triage": {
+   "category": "sales",
+   "urgency": "medium",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": true,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Prospect asks whether the Academy program guarantees a 15 LPA+ job before paying the ₹3,50,000 fee, noting the counsellor sounded certain."
+  },
+  "draft": {
+   "reply": "Hi Siddharth,\n\nThank you for reaching out, and for asking this before you pay. It's a very sensible question.\n\nTo be fully transparent: we do not offer or guarantee any job, salary or specific outcome, so a 15 LPA+ job after the Academy program cannot be promised. If anything you heard on your counselling call sounded like a guarantee, please go by what is written here.\n\nHere is the placement support you do get:\n- Resume reviews\n- 4 mock interviews\n- LinkedIn profile coaching\n- Referrals to hiring partners\n\nThis support is available for 12 months after you complete the program. Referrals depend on your performance and on employer openings.\n\nThe Academy program is a 6-month full-stack and DSA track with 3 live classes per week. If it would help your decision, I can share details on fees, EMI options or scholarships. Just let me know.\n\nWe've also noted your concern about the counsellor's messaging, and a team member can follow up on that if you'd like.\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.9,
+   "source_doc_ids": [
+    "KB-10",
+    "KB-01"
+   ],
+   "reasoning": "KB-10 clearly states no job, salary or outcome is guaranteed, so the reply answers the question directly; the counsellor's conflicting messaging may need staff follow-up, which I have offered without promising it."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2014": {
+  "ticketId": "T-2014",
+  "triage": {
+   "category": "account",
+   "urgency": "medium",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Neha Agarwal (DevOps, ₹180000) asks to move from her current batch to the next one starting next month because a work project release prevents her from keeping up."
+  },
+  "draft": {
+   "reply": "Hi Neha,\n\nThanks for reaching out, and good luck with your office project release! We're happy to help you find a way to keep your DevOps learning on track.\n\nHere's what our policy allows:\n\n1. Switching batches: You can switch to another batch once, free of charge, as long as the request is made at least 7 days before the new batch start date. Since the next batch starts next month, you should be well within that window, but please send your request soon so you don't miss the cutoff.\n\n2. Pausing the program (an alternative): If you'd rather take a break, a program can be paused once, for up to 3 months. After that you rejoin the next available batch. Pause requests need the program manager's approval, and pausing isn't allowed during the final capstone month. Your recordings access is also extended by the length of the pause.\n\nIf you'd like to go ahead with the switch, please reply with your preferred batch (weekday Mon-Wed 8-10 PM IST or weekend Sat-Sun 11 AM-2 PM IST) and the batch start date, and we'll take it from there. Meanwhile, remember that recordings of every live class are uploaded to your dashboard within 24 hours, so you can catch up on anything you miss.\n\nWishing you a smooth release!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.82,
+   "source_doc_ids": [
+    "KB-13",
+    "KB-06",
+    "KB-07"
+   ],
+   "reasoning": "KB-13 directly covers a free one-time batch switch with a 7-day notice and the pause option, though the exact next batch start date is unknown so the eligibility window can't be confirmed."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2015": {
+  "ticketId": "T-2015",
+  "triage": {
+   "category": "refund",
+   "urgency": "critical",
+   "sentiment": "angry",
+   "churn_risk": true,
+   "upsell": false,
+   "legal_threat": true,
+   "security_issue": false,
+   "custom_escalation": true,
+   "summary": "Advocate on behalf of a client demands a full ₹3,50,000 Academy fee refund within 7 days, citing misrepresented placement outcomes, or will file a consumer court complaint."
+  },
+  "draft": {
+   "reply": "Dear Suresh,\n\nThank you for writing to us, and we're sorry to hear about your client's experience. We understand the seriousness of your message and want to make sure it gets the right attention.\n\nBecause your message raises concerns about how placement outcomes and refunds were communicated, and includes a legal notice, we are not able to resolve or comment on it through general support. We are escalating it to the appropriate team members, who will review it and follow up with you directly.\n\nSo that the team can look into this quickly, it would help if you could share the following by replying to this email:\n- Your client's full name and the enrolled email address or phone number\n- The date of enrollment and the payment details\n- Any specific communication or material in which the placement outcomes or refund terms were described\n\nFor reference, our published policies are as follows:\n- Refunds: a 100% refund applies if requested within 7 days of enrollment, and a 50% refund if requested between day 8 and day 14. No refund is available after 14 days. Refunds above ₹10,000 require manager approval before processing, and approved refunds are credited to the original payment method within 7-10 business days.\n- Placement support: it includes resume reviews, 4 mock interviews, LinkedIn profile coaching and referrals to hiring partners, available for 12 months after program completion. We do not offer or guarantee any job, salary or specific outcome.\n\nWhether your client's request qualifies will depend on the enrollment date and the details of the case, which the team will review. We cannot confirm any refund amount or outcome in this email.\n\nThank you for your patience, Suresh. A team member will be in touch with you soon.\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.15,
+   "source_doc_ids": [
+    "KB-03",
+    "KB-10"
+   ],
+   "reasoning": "The ticket is a legal threat demanding a full refund that requires manager approval and human handling, and the KB cannot determine eligibility without the enrollment date, so I acknowledged it, cited the policies without promising anything, and escalated."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2020": {
+  "ticketId": "T-2020",
+  "triage": {
+   "category": "account",
+   "urgency": "high",
+   "sentiment": "neutral",
+   "churn_risk": true,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": true,
+   "summary": "Customer Shreya Malhotra (Data Science, ₹285000 fee) is leaving and requests deletion of her account and all personal data."
+  },
+  "draft": {
+   "reply": "Hi Shreya,\n\nThank you for reaching out, and we're sorry to hear you've decided to leave. We've noted your request to delete your account and personal data.\n\nRequests like this are handled only by our dedicated privacy team, so we're routing yours to them at privacy@example.com. Here's what to expect:\n\n- The privacy team will verify your identity before processing the request.\n- They aim to complete the request within 30 days.\n- Once the deletion is done, you will lose access to the dashboard, session recordings and any certificates linked to your account. Please download or save anything you need before then.\n\nIf you'd like to follow up directly, you can also write to privacy@example.com.\n\nWishing you all the very best for what's ahead, Shreya.\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.9,
+   "source_doc_ids": [
+    "KB-16"
+   ],
+   "reasoning": "KB-16 says deletion requests must be acknowledged and routed to privacy@example.com, with identity verification and 30-day completion, which this reply follows without processing the deletion itself."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2016": {
+  "ticketId": "T-2016",
+  "triage": {
+   "category": "account",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Pooja Bhatt asks to pause her Data Science program for 2 months due to a family wedding and relocation, and to resume later."
+  },
+  "draft": {
+   "reply": "Hi Pooja,\n\nThank you for reaching out, and congratulations on the upcoming family wedding! Yes, it is possible to pause your Data Science program and continue later. Here is how it works:\n\n- A program can be paused for up to 3 months, so your 2-month break fits within the limit.\n- A pause can be used once only. After the pause, you rejoin the next available batch.\n- Pause requests need the program manager's approval. Please note that pauses are not allowed during the final capstone month.\n- Your recordings access is extended by the length of your pause, so you won't lose any of your 12 months of access.\n\nTo get started, please reply with your preferred pause start date and let us know roughly where you are in the program. Our team will then take your request to the program manager for approval. I can't confirm the approval myself, but we'll keep you posted on the outcome.\n\nWishing you a wonderful celebration and a smooth relocation!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.8,
+   "source_doc_ids": [
+    "KB-13"
+   ],
+   "reasoning": "KB-13 clearly covers pause eligibility (up to 3 months, once, manager approval, not in capstone month, recordings extended), but final approval requires the program manager and the capstone-month status is unknown."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2019": {
+  "ticketId": "T-2019",
+  "triage": {
+   "category": "how-to",
+   "urgency": "medium",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Academy student Aditya Choudhury cannot find the recording of Tuesday's class and asks for the link urgently."
+  },
+  "draft": {
+   "reply": "Hi Aditya,\n\nSorry you missed Tuesday's class, but you can catch up easily. Recordings of every live class are uploaded to your learner dashboard within 24 hours of the session, so you won't need a separate link. Log in and look for Tuesday's session there.\n\nWhen you watch, you can play it at up to 2x speed and use the searchable timestamps to jump to the topics you care about most. You'll have access to recordings for 12 months from your batch start date.\n\nIf it's been more than 24 hours since the class and the recording still isn't on your dashboard, reply to this email and let us know. We'll raise a request with the content team to get it uploaded.\n\nHappy learning, and hope you catch up quickly!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.82,
+   "source_doc_ids": [
+    "KB-07"
+   ],
+   "reasoning": "KB-07 explains recordings are uploaded to the dashboard within 24 hours and support can raise a content-team request if missing after that, but I can't confirm whether 24 hours have passed for this class."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2018": {
+  "ticketId": "T-2018",
+  "triage": {
+   "category": "account",
+   "urgency": "critical",
+   "sentiment": "frustrated",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": true,
+   "custom_escalation": true,
+   "summary": "Customer reports an unrecognized login from a new device in another country, suspects a compromised password, and asks for immediate account securing due to concern about payment details."
+  },
+  "draft": {
+   "reply": "Hi Kavya,\n\nThank you for flagging this right away, and I'm sorry for the worry it has caused. I understand how unsettling an unrecognized login alert can be, especially when you're concerned about your payment details.\n\nHere is what I can share from our guidelines to help you act now:\n\n1. Reset your password: Use the Forgot Password link on the login page. You'll receive a reset email that is valid for 30 minutes. If it doesn't arrive, please check your spam folder and make sure you're using your enrolled email address.\n2. Account lock: Accounts are temporarily locked for 15 minutes after 5 failed login attempts.\n3. Registered email: If you think your registered email may have been changed or compromised, our support team can update it, but only after verifying your phone number via OTP.\n\nI don't have the tools or policy details in front of me to investigate the login activity, force-log out the other device, or review the security of your payment details. Because this is a security concern, I'm flagging your ticket as critical so a team member can review it and follow up with you directly as soon as possible. Please don't share your password or any OTP with anyone in the meantime.\n\nThank you for your patience, Kavya. We'll get back to you soon.\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.3,
+   "source_doc_ids": [
+    "KB-12"
+   ],
+   "reasoning": "The KB only covers password reset, lockout and OTP-based email update; it has no procedure for investigating suspicious logins, terminating sessions or securing payment data, so staff action and a human follow-up are required for this critical security issue."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2017": {
+  "ticketId": "T-2017",
+  "triage": {
+   "category": "sales",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": true,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Prospect Manish Tiwari asks about no-cost EMI options for the DevOps program (₹180,000), including the 12-month monthly amount and whether a credit card is required."
+  },
+  "draft": {
+   "reply": "Hi Manish,\n\nThank you for your interest in our DevOps program! Here's what I can share about EMI options:\n\n- The DevOps program fee is ₹1,80,000, inclusive of GST.\n- No-cost EMI is available for 6, 12 and 18 months through our partner lenders, subject to credit approval.\n- A one-time booking amount of ₹10,000 locks your seat and is adjusted against the final fee.\n- Longer tenures such as 18 months may carry a small processing fee of ₹999.\n\nOn the monthly amount for 12 months: since no-cost EMI means the fee is split without added interest, the exact instalment depends on the partner lender's approval and how the booking amount is applied. I don't want to quote you a figure that might be off, so a team member will follow up with the precise monthly amount for your case.\n\nOn whether you need a credit card: our materials only say that EMI is offered through partner lenders and is subject to credit approval. They don't specify which payment instruments or documents are required, so our team will confirm this for you when they follow up.\n\nIf you'd like, you can also look into our admission process in the meantime, which begins with a 60-minute online screening test followed by a 20-minute counselling call. Merit scholarships of 10% to 30% are awarded based on the screening test score, and they must be claimed before enrollment.\n\nWe're happy to help you take the next step, Manish!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.5,
+   "source_doc_ids": [
+    "KB-02",
+    "KB-04",
+    "KB-05"
+   ],
+   "reasoning": "The KB confirms EMI tenures, fee, booking amount and processing fee, but does not specify the exact 12-month instalment or whether a credit card is required, so a team member must follow up."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2024": {
+  "ticketId": "T-2024",
+  "triage": {
+   "category": "bug",
+   "urgency": "medium",
+   "sentiment": "frustrated",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Customer reports live class videos buffering and freezing since last night for her and several batchmates, while other apps work fine."
+  },
+  "draft": {
+   "reply": "Hi Farah,\n\nThank you for letting us know, and I'm sorry the live classes have been freezing for you and your batchmates. That sounds really frustrating, especially when your internet is working well on other apps.\n\nHere is what we recommend:\n\n1. Check the status page. Since several learners are affected, this may be a wider issue, and any ongoing incident would be listed there.\n2. Check your connection speed. Video playback works best with at least 5 Mbps.\n3. Lower the video quality. In the player settings, switch to 480p or 720p.\n4. Free up bandwidth. Close other bandwidth-heavy apps while you're in class.\n5. Update your browser. Use an updated version of Chrome or Edge.\n\nIf the lag continues after these steps, please escalate it to our technical team. Reply to this email with a screenshot of the issue and a speed test result, and mention that your batchmates are seeing the same problem. That will help the team investigate faster.\n\nThanks for your patience, Farah. We want to get you back to smooth classes soon!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.8,
+   "source_doc_ids": [
+    "KB-15"
+   ],
+   "reasoning": "KB-15 covers video lag troubleshooting, the status page check for multi-learner issues, and escalation with screenshot and speed test, though it cannot confirm whether there is an actual platform incident."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2023": {
+  "ticketId": "T-2023",
+  "triage": {
+   "category": "other",
+   "urgency": "medium",
+   "sentiment": "frustrated",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Academy customer reports his assigned mentor missed 3 sessions without notice and was distracted and rude, and requests a mentor change and an explanation."
+  },
+  "draft": {
+   "reply": "Hi Nikhil,\n\nThank you for telling us about this, and I'm sorry about your experience. Three missed sessions with no notice, and a mentor who was distracted and dismissive of your questions, is not the standard you should expect from your 1:1 mentor sessions. Your frustration is completely understandable.\n\nHere is what I can confirm from our policies:\n- Each learner is entitled to a 45-minute 1:1 mentor session every two weeks.\n- If a mentor cancels, a replacement slot should be offered within 72 hours.\n\nOur knowledge base does not cover how mentor reassignments are handled or how mentor conduct complaints are investigated. I don't want to promise you a specific outcome or timeline that I can't confirm. I'm passing your request for a different mentor, along with your request for an explanation of the missed sessions and the behaviour you experienced, to a team member who will follow up with you directly.\n\nIt would help if you could reply with the approximate dates of the missed sessions and, if you have them, any details of the sessions where you felt your questions were not handled well. This will help the team look into it properly.\n\nThank you for your patience, Nikhil. We want your mentoring to be useful and respectful.\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.3,
+   "source_doc_ids": [
+    "KB-08"
+   ],
+   "reasoning": "The KB covers only mentor session frequency and the replacement slot after mentor cancellation, not mentor reassignment or conduct complaints, and the learner is frustrated, so a staff member needs to follow up."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2022": {
+  "ticketId": "T-2022",
+  "triage": {
+   "category": "sales",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": true,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Prospect with 5 years of testing experience asks whether the screening test is mandatory for the program and whether a 6-month duration is sufficient for moving into development."
+  },
+  "draft": {
+   "reply": "Hi Tanvi,\n\nThank you for your interest in Scaler (demo data), and it's great that you're looking to move from testing into development!\n\nScreening test: Admission starts with an online screening test of 60 minutes that covers basic logic and programming aptitude. Our knowledge base doesn't list any exemption for prior experience, so the screening test is the first step for everyone. Shortlisted candidates then have a 20-minute counselling call to match them to the right program. Since you have a bachelor's degree or higher and work experience, you meet the eligibility criteria (graduates and working professionals with at least a bachelor's degree are eligible). Offer letters are issued within 2 business days of a successful counselling call. Your test score may also qualify you for a merit scholarship of 10% to 30% of the program fee, which must be claimed before enrollment.\n\nIs 6 months enough? The Academy program is a 6-month full-stack and DSA track with 3 live classes per week, which is the track designed for building development skills. Whether 6 months is enough for your personal goals depends on your starting point and effort, and I can't promise any specific job or outcome. What I can share is that our placement support includes resume reviews, 4 mock interviews, LinkedIn profile coaching and referrals to hiring partners, available for 12 months after program completion. Your counselling call is a great place to discuss your background and confirm the best-fit program.\n\nIf you'd like, go ahead and book the screening test, and we'll take it from there!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.82,
+   "source_doc_ids": [
+    "KB-04",
+    "KB-01",
+    "KB-05",
+    "KB-10"
+   ],
+   "reasoning": "The KB confirms the screening test is the first admission step with no stated exemption and describes the 6-month Academy track, but it cannot say whether 6 months is 'enough' for her goals, so that part is answered cautiously."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2025": {
+  "ticketId": "T-2025",
+  "triage": {
+   "category": "billing",
+   "urgency": "high",
+   "sentiment": "angry",
+   "churn_risk": true,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Academy student Gaurav Saxena (₹3.5 lakh fee) is threatening to cancel his EMI mandate and post negative reviews unless a senior person calls him today, citing product issues and slow support replies."
+  },
+  "draft": {
+   "reply": "Hi Gaurav,\n\nThank you for telling us how you feel. I'm sorry your experience has fallen short of what you expected, and that our support replies have been slow. That is not the standard we want to meet, and your frustration is completely understandable.\n\nI can't promise a call time or arrange a senior callback myself. I have flagged your ticket as high urgency and a churn risk, and a team member will follow up with you personally. Your message makes clear that you want to speak with someone senior today.\n\nTo help us fix things quickly, please reply with the specific issues you've run into (for example, classes, recordings, mentor sessions, assignments or platform access). That way the right person can come to the conversation ready to help.\n\nIf your concern is about your fees or a possible refund, here is our policy so you have the facts: a 100% refund is available if requested within 7 days of enrollment, and a 50% refund if requested between day 8 and day 14. No refund is available after 14 days. Refunds above ₹10,000 need manager approval before processing. I can't tell from your message where you stand against these timelines, so the team will review your case with you directly.\n\nThank you for your patience, Gaurav. We want to make this right.\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.3,
+   "source_doc_ids": [
+    "KB-03"
+   ],
+   "reasoning": "The customer is angry, a churn risk, and demands a senior callback today, which needs human staff action the KB doesn't cover, so I acknowledged him, shared the refund policy and escalated without making promises."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2021": {
+  "ticketId": "T-2021",
+  "triage": {
+   "category": "refund",
+   "urgency": "medium",
+   "sentiment": "neutral",
+   "churn_risk": true,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Harish Subramanian, enrolled 20 days ago in the DevOps program, requests a refund of his first EMI (₹15,000) because he is moving abroad, acknowledging it is past the two-week window."
+  },
+  "draft": {
+   "reply": "Hi Harish,\n\nThank you for reaching out, and congratulations on your upcoming move abroad. We understand how much is on your plate right now, and we appreciate you being upfront about the timing.\n\nOur refund policy is as follows: a 100% refund is available if requested within 7 days of enrollment, and a 50% refund if requested between day 8 and day 14. Unfortunately, no refund is available after 14 days. Since you enrolled 20 days ago, your request falls outside the refund window, so we are not able to refund the ₹15,000 EMI payment under the current policy.\n\nHere are some options that may help with your move:\n- Pause the program: you can pause for up to 3 months (once only), after which you rejoin the next available batch. Pause requests need the program manager's approval, and your recordings access is extended by the pause duration.\n- Recordings: all live classes are recorded and uploaded to your dashboard within 24 hours, so you can keep learning from abroad at your own pace. Recordings can be accessed for 12 months from the batch start date. Weekday live classes run Monday to Wednesday, 8:00 PM to 10:00 PM IST, and weekend classes run Saturday and Sunday, 11:00 AM to 2:00 PM IST.\n- Switching batches: you can switch once, free of charge, if requested at least 7 days before the new batch start.\n\nIf you would like to go ahead with a pause or batch switch, just reply here and we will pass your request along to the program manager. I have also flagged your message so a team member can review your situation and follow up with you.\n\nWishing you all the best, Harish!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.82,
+   "source_doc_ids": [
+    "KB-03",
+    "KB-13",
+    "KB-07",
+    "KB-06"
+   ],
+   "reasoning": "The KB clearly states no refund after 14 days, so the request cannot be granted; alternatives (pause, batch switch, recordings) are offered from the KB, but the customer's churn risk and request for an exception warrant a human follow-up."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2030": {
+  "ticketId": "T-2030",
+  "triage": {
+   "category": "how-to",
+   "urgency": "low",
+   "sentiment": "positive",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Student Deepa Menon requests a 2-day extension on the module 4 assignment due to a work trip."
+  },
+  "draft": {
+   "reply": "Hi Deepa,\n\nThanks for reaching out, and I hope the work trip went well!\n\nGood news: your request fits within our extension policy. Learners can request one extension of up to 3 days per module with a valid reason, and work travel is one of the accepted reasons. Your request for 2 extra days on the module 4 assignment is within that limit.\n\nA couple of things to keep in mind:\n- The extension is limited to one per module, so this will be the extension for module 4.\n- Late submissions without an extension lose 10% of the score per day, so please be sure to submit within your extended window.\n\nWe're noting your request for the module 4 assignment with work travel as the reason, and a team member will confirm the updated due date with you shortly. If you need more than the 2 days, extensions beyond 3 days need program manager approval, so just let us know.\n\nYou've got this, Deepa!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.8,
+   "source_doc_ids": [
+    "KB-09"
+   ],
+   "reasoning": "KB-09 allows one extension of up to 3 days per module for valid reasons like work travel, so the 2-day request is eligible, though staff must still record the extension and confirm the new date."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2029": {
+  "ticketId": "T-2029",
+  "triage": {
+   "category": "other",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Student asks whether the Saturday 11 AM class is still on schedule, having seen a message that timings may change next week."
+  },
+  "draft": {
+   "reply": "Hi Imran,\n\nThanks for reaching out! Per our standard schedule, weekend batches run Saturday and Sunday from 11:00 AM to 2:00 PM IST, so your Saturday class is normally at 11 AM.\n\nI don't have any information about a specific change for next week, so I can't confirm or rule one out from my end. What I can tell you is that any holiday schedule changes are announced by email at least 3 days in advance, so please keep an eye on your inbox (and spam folder) for an official notice. You'll also find the live class link on your learner dashboard 15 minutes before each session, which is a handy way to double-check.\n\nIf the message you saw doesn't match what's in your email, feel free to share it with us (a screenshot helps), and a team member will follow up to confirm the exact timing for you.\n\nHappy learning!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.6,
+   "source_doc_ids": [
+    "KB-06"
+   ],
+   "reasoning": "KB confirms the standard Saturday 11 AM weekend slot and the 3-day advance email policy for changes, but it has no info on a specific change next week, so the reply can't definitively confirm it."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2028": {
+  "ticketId": "T-2028",
+  "triage": {
+   "category": "sales",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": true,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Prospect asks about total Data Science program fee, availability of 18-month EMI, and any discount for women."
+  },
+  "draft": {
+   "reply": "Hi Ritu,\n\nThank you for your interest in our Data Science program! Here are the details you asked about:\n\n**Total fee:** The Data Science program fee is ₹2,85,000, inclusive of GST. The program runs for 9 months and covers Python, statistics, ML and MLOps.\n\n**EMI options:** Yes, no-cost EMI is available for 6, 12 and 18 months through our partner lenders, subject to credit approval. Please note that longer tenures such as 18 months may carry a small processing fee of ₹999. A one-time booking amount of ₹10,000 locks your seat and is adjusted against the final fee.\n\n**Discounts for women:** We offer a women-in-tech scholarship of up to ₹25,000 each cohort. We also have merit scholarships of 10% to 30% of the program fee, based on your screening test score. A couple of things to keep in mind: scholarships cannot be combined with other discounts, they must be claimed before enrollment, and decisions are made by the admissions committee and are final.\n\nIf you'd like to get started, admission begins with a 60-minute online screening test, followed by a 20-minute counselling call for shortlisted candidates.\n\nWishing you all the best, Ritu. Please reach out if you have any other questions!\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.93,
+   "source_doc_ids": [
+    "KB-01",
+    "KB-02",
+    "KB-04",
+    "KB-05"
+   ],
+   "reasoning": "The KB directly covers the Data Science fee, 18-month EMI availability with processing fee, and the women-in-tech and merit scholarships, so the reply fully resolves the query."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2027": {
+  "ticketId": "T-2027",
+  "triage": {
+   "category": "refund",
+   "urgency": "medium",
+   "sentiment": "neutral",
+   "churn_risk": true,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": false,
+   "summary": "Yash Patel enrolled in the DevOps program 10 days ago, finds the pace too fast, and requests a refund of ₹1,80,000."
+  },
+  "draft": {
+   "reply": "Hi Yash,\n\nThank you for reaching out, and I'm sorry to hear the pace of the DevOps program hasn't felt right for you so far.\n\nHere is how our refund policy applies to your request:\n\n- A 100% refund is available if requested within 7 days of enrollment.\n- A 50% refund is available if requested between day 8 and day 14.\n- No refund is available after 14 days.\n\nSince you enrolled 10 days ago, your request falls in the day 8-14 window, so it is eligible for a 50% refund. Based on the ₹1,80,000 you have paid, that would be ₹90,000.\n\nA few things to know about the process:\n\n- Refunds above ₹10,000 need manager approval before they can be processed, so your request will need to go through that step.\n- Once approved, the refund is credited to your original payment method within 7-10 business days.\n\nBecause the 14-day window is closing soon, please reply to confirm that you would like to proceed, and a team member will take it forward for manager approval.\n\nIf the main concern is the pace rather than the program itself, you may also want to know that you can pause the program for up to 3 months (once only, with program manager approval) and rejoin the next available batch, or switch to another batch once free of charge if requested at least 7 days before that batch starts. Your 1:1 mentor session every two weeks can also be a good place to talk through the pace. Recordings of every live class are on your dashboard within 24 hours, so you can revisit topics at up to 2x speed. Of course, the decision is entirely yours, and we are happy to help whichever way you choose.\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.72,
+   "source_doc_ids": [
+    "KB-03",
+    "KB-13",
+    "KB-08",
+    "KB-07"
+   ],
+   "reasoning": "Day 10 falls in the 50% refund window (₹90,000) per KB-03 and requires manager approval as it exceeds ₹10,000, so staff action is needed, but the policy is clear."
+  },
+  "source": "live",
+  "voice": false
+ },
+ "T-2026": {
+  "ticketId": "T-2026",
+  "triage": {
+   "category": "other",
+   "urgency": "high",
+   "sentiment": "frustrated",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "custom_escalation": true,
+   "summary": "Academy graduate (fee ₹3,50,000) says her counsellor promised placement assurance but after 4 months she has had only one referral and no interview calls, and she wants to know what is being done."
+  },
+  "draft": {
+   "reply": "Hi Lakshmi,\n\nThank you for writing in, and congratulations on completing the Academy program. I'm sorry that your experience with placements so far has been frustrating, and I understand why you want answers.\n\nHere is what our placement support covers, per our policy:\n- Resume reviews\n- 4 mock interviews\n- LinkedIn profile coaching\n- Referrals to hiring partners\n\nThis support is available for 12 months after program completion. You finished 4 months ago, so you still have about 8 months of access. If you haven't yet used the resume review, mock interviews or LinkedIn coaching, I'd encourage you to take them up, as they can help strengthen your profile for the referrals that come your way.\n\nI also want to be transparent: we do not offer or guarantee any job, salary or specific outcome, and referrals depend on learner performance and employer openings. I'm sorry that what you were told by the counsellor may not have matched this. I can't make any commitments on placement outcomes, and I don't want to give you an inaccurate picture.\n\nBecause you've raised a concern about what was communicated during counselling, I'm flagging your case for a team member to review personally and follow up with you directly. Please share the approximate date of your counselling call and the counsellor's name, if you remember them, so the team can look into it properly.\n\nThank you for your patience, Lakshmi. We want to make sure you get the support you're entitled to.\n\nWarm regards,\nThe Scaler (demo data) Support Team",
+   "confidence": 0.35,
+   "source_doc_ids": [
+    "KB-10"
+   ],
+   "reasoning": "KB-10 clarifies placement support scope and that no outcomes are guaranteed, but the customer alleges a counsellor's promise and is frustrated, so a human must review the claim and follow up."
+  },
+  "source": "live",
+  "voice": false
+ }
+}

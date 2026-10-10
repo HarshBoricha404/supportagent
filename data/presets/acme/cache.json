@@ -1,0 +1,679 @@
+{
+ "T-1003": {
+  "ticketId": "T-1003",
+  "triage": {
+   "category": "account",
+   "urgency": "medium",
+   "sentiment": "frustrated",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Customer Sophie Laurent is not receiving the password reset email after using the forgot password flow."
+  },
+  "draft": {
+   "reply": "Hi Sophie,\n\nSorry for the trouble, let's get you back in. Here are a few things to try:\n\n1. Make sure you entered the email address linked to your Acme account on the 'Forgot password' page.\n2. Check your spam or junk folder. The reset link normally arrives within 2 minutes.\n3. Use the link soon after it arrives, as it is valid for 30 minutes. If it has expired, just request a new one.\n\nIf you no longer have access to the email address on your account, let us know and our team can verify your identity and update it for you.\n\nIf you still don't receive anything, reply here and we'll take a closer look.\n\nThe Acme Support Team",
+   "confidence": 0.8,
+   "source_doc_ids": [
+    "KB-02"
+   ],
+   "reasoning": "KB-02 covers the reset flow, timing, spam check and the identity-verification fallback, but we can't confirm the root cause of why the email isn't arriving, so some follow-up may be needed."
+  },
+  "source": "live"
+ },
+ "T-1004": {
+  "ticketId": "T-1004",
+  "triage": {
+   "category": "sales",
+   "urgency": "low",
+   "sentiment": "positive",
+   "churn_risk": false,
+   "upsell": true,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Kiln Studios wants to add seats for 15 more users and asks about pricing and team discounts."
+  },
+  "draft": {
+   "reply": "Hi Raj,\n\nCongrats on the growth! Yes, you can add more seats on your Pro plan. Admins can invite users under Settings > Team.\n\nSeats on Pro are $20 per user/month, billed pro-rata. For 15 additional users, that comes to $300/month at full-month pricing (15 x $20). If you later remove a user, billing for that seat stops at the next cycle.\n\nI don't have information on team or volume discounts for Pro plans, so I can't promise one. If you're looking at a larger team, Enterprise plans have custom seat pricing handled by our sales team, who can go over options with you.\n\nLet us know if you'd like anything else.\n\nThe Acme Support Team",
+   "confidence": 0.72,
+   "source_doc_ids": [
+    "KB-06",
+    "KB-07"
+   ],
+   "reasoning": "KB-06 covers Pro seat pricing ($20/user/month) and the Enterprise sales route, but nothing on team discounts, so that part is answered only by deferring to sales."
+  },
+  "source": "live"
+ },
+ "T-1001": {
+  "ticketId": "T-1001",
+  "triage": {
+   "category": "other",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Customer placed an order on Monday and has not received tracking information, asking for its location."
+  },
+  "draft": {
+   "reply": "Hi Maya,\n\nThanks for reaching out. Orders ship within 1-2 business days of being placed, and a tracking link is emailed as soon as your order is dispatched. It is also available under Account > Orders, so it's worth checking there too.\n\nOnce shipped, standard delivery takes 3-5 business days and express takes 1-2. If your order has shipped and tracking shows no movement for 5 days, let us know and we will open a carrier investigation.\n\nIf you don't see a tracking link in your email or under Account > Orders after 2 business days from your order date, reply here and we'll take a closer look.\n\nThe Acme Support Team",
+   "confidence": 0.72,
+   "source_doc_ids": [
+    "KB-01"
+   ],
+   "reasoning": "KB-01 covers shipping timelines and where to find tracking, but I can't see the customer's specific order status, so the reply gives guidance rather than a definitive location."
+  },
+  "source": "live"
+ },
+ "T-1005": {
+  "ticketId": "T-1005",
+  "triage": {
+   "category": "account",
+   "urgency": "critical",
+   "sentiment": "angry",
+   "churn_risk": true,
+   "upsell": false,
+   "legal_threat": true,
+   "security_issue": true,
+   "summary": "Customer reports a data leak of their client list, says their attorney is involved, and threatens a GDPR complaint unless a response comes within 48 hours."
+  },
+  "draft": {
+   "reply": "Dear Ms. Voss,\n\nThank you for contacting us, and I'm sorry for the concern this has caused. We take reports like this very seriously.\n\nSuspected data breaches and security reports are handled exclusively by our security team, not general support, so I am escalating your message to them now, marked as urgent and noting your 48-hour timeframe. To help them begin right away, please reply with any details you have, such as what was exposed, when and how you became aware of it, and any supporting evidence.\n\nI can't make any statements about the cause or about legal matters in this channel, but the security team will follow up with you directly.\n\nSincerely,\nThe Acme Support Team",
+   "confidence": 0.2,
+   "source_doc_ids": [
+    "KB-13"
+   ],
+   "reasoning": "The KB says suspected breaches must go to the security team and not general support; the customer is angry and has made a legal threat with a deadline, so a human must handle it and I can only acknowledge and escalate."
+  },
+  "source": "live"
+ },
+ "T-1002": {
+  "ticketId": "T-1002",
+  "triage": {
+   "category": "bug",
+   "urgency": "critical",
+   "sentiment": "angry",
+   "churn_risk": true,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Enterprise customer Daniel Okafor (Northstar Logistics) reports a third outage this month, demands a senior call today, and is evaluating competitors ahead of a January non-renewal."
+  },
+  "draft": {
+   "reply": "Hi Daniel,\n\nI'm truly sorry. Losing a full day of work, and for the third time this month, is not the experience we want for you, and your frustration is completely understandable.\n\nI've flagged your message as critical and asked for it to be escalated today so that a senior member of our team can contact you about your request for a call. I can't promise a specific time myself, but your request has been marked as urgent.\n\nIn the meantime, live service status is available at status.example.com. As an Enterprise customer, you're covered by our 99.99% uptime SLA, and service credits for any breaches are handled by your account management team. They will be included in the follow-up so these outages can be reviewed against your SLA.\n\nThank you for telling us plainly how this has affected Northstar Logistics.\n\nThe Acme Support Team",
+   "confidence": 0.2,
+   "source_doc_ids": [
+    "KB-12"
+   ],
+   "reasoning": "The KB covers only the status page and SLA credits; this angry, high-value Enterprise customer with churn risk demands a senior call today, which requires human escalation and cannot be resolved or promised from the KB alone."
+  },
+  "source": "live"
+ },
+ "T-1006": {
+  "ticketId": "T-1006",
+  "triage": {
+   "category": "how-to",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Customer asks where to find the button to export all project data as CSV."
+  },
+  "draft": {
+   "reply": "Hi Tom,\n\nThanks for reaching out! You can export your data under Settings > Data > Export. This creates a CSV/JSON archive of all your projects, so you'll get the CSV you need.\n\nIf your export is large, it will be emailed to you within 30 minutes.\n\nLet us know if you have any trouble finding it.\n\nThe Acme Support Team",
+   "confidence": 0.97,
+   "source_doc_ids": [
+    "KB-08"
+   ],
+   "reasoning": "KB-08 directly answers where to find the export and that it produces CSV/JSON for all projects, including the large export email timing."
+  },
+  "source": "live"
+ },
+ "T-1009": {
+  "ticketId": "T-1009",
+  "triage": {
+   "category": "bug",
+   "urgency": "medium",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Pro customer Hannah Berg (Berg Analytics) reports CSV uploads of about 80MB fail with error E-413 after a few minutes and asks for a fix."
+  },
+  "draft": {
+   "reply": "Hi Hannah,\n\nThanks for reaching out. Error E-413 is a known issue: CSV imports above 50MB or 100k rows can time out, and your 80MB file is over that limit. Our engineering team is tracking it as incident INC-2291.\n\nWorkaround: split your CSV into chunks under 50MB each and import them one at a time. A permanent fix is scheduled for the next release.\n\nIf the smaller files still fail, let us know and we'll take a closer look.\n\nThe Acme Support Team",
+   "confidence": 0.95,
+   "source_doc_ids": [
+    "KB-11"
+   ],
+   "reasoning": "The KB describes exactly this known issue (E-413 on files above 50MB) with a workaround and a scheduled fix, so the reply fully covers the ticket."
+  },
+  "source": "live"
+ },
+ "T-1008": {
+  "ticketId": "T-1008",
+  "triage": {
+   "category": "refund",
+   "urgency": "medium",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Customer upgraded to the Starter plan three days ago, found it not what they expected, and requests a refund of the $29 charge."
+  },
+  "draft": {
+   "reply": "Hi Lucas,\n\nThanks for reaching out, and I'm sorry the Starter plan wasn't what you expected.\n\nGood news: monthly and annual plans can be refunded in full within 14 days of purchase or renewal, and you're at day 3, so your $29 is eligible. Refunds go back to your original payment method and take 5-10 business days to arrive.\n\nIf you'd also like to stop your subscription, you can go to Settings > Billing > Cancel plan. Access continues until the end of the billing period, and your data is retained for 90 days after cancellation. You can also pause for up to 3 months from the same page. If you'd like to export your data first, Settings > Data > Export creates a CSV/JSON archive.\n\nPlease reply to confirm you'd like us to process the refund, and we'll take it from there.\n\nWarm regards,\nThe Acme Support Team",
+   "confidence": 0.72,
+   "source_doc_ids": [
+    "KB-03",
+    "KB-04",
+    "KB-08"
+   ],
+   "reasoning": "The KB confirms a full refund within 14 days and the $29 is under the $200 manager-approval threshold, but the KB does not say how a refund is actually triggered (staff action is likely required) and it is unclear whether the 'upgrade' refund means reverting the plan or cancelling."
+  },
+  "source": "live"
+ },
+ "T-1010": {
+  "ticketId": "T-1010",
+  "triage": {
+   "category": "account",
+   "urgency": "critical",
+   "sentiment": "angry",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": true,
+   "summary": "Customer reports a login alert from an unfamiliar country and changed account data, suspecting their account was hacked."
+  },
+  "draft": {
+   "reply": "Hi Carlos,\n\nI'm sorry about this, and thank you for flagging it right away. I understand how worrying it is to see an unfamiliar login and changes you didn't make.\n\nSuspected breaches have to be handled by our security team, not general support, so please report this to them directly and include the details of the login alert (country, date and time) and what data looks changed. I'm not able to investigate or resolve the compromise from this channel.\n\nIn the meantime, you can take these steps yourself:\n- Reset your password: click 'Forgot password' on the login page and enter your email. The link arrives within 2 minutes and is valid for 30 minutes (check spam).\n- Turn on two-factor authentication under Settings > Security using any authenticator app, and save the 10 backup codes.\n\nWe take this seriously, and I want to make sure it reaches the right team.\n\nThe Acme Support Team",
+   "confidence": 0.35,
+   "source_doc_ids": [
+    "KB-13",
+    "KB-02",
+    "KB-10"
+   ],
+   "reasoning": "The KB says suspected breaches must go to the security team and are never handled by general support, so staff action is needed; the reply only gives safe self-service steps (password reset, 2FA) and the customer is angry and needs a human touch."
+  },
+  "source": "live"
+ },
+ "T-1007": {
+  "ticketId": "T-1007",
+  "triage": {
+   "category": "refund",
+   "urgency": "high",
+   "sentiment": "frustrated",
+   "churn_risk": true,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Enterprise customer Aisha Khan (Lumen Health) requests a full $33,600 refund of an annual renewal charged yesterday, stating budget cuts mean they did not intend to renew."
+  },
+  "draft": {
+   "reply": "Hi Aisha,\n\nThank you for reaching out, and I'm sorry about the unexpected renewal charge, especially with the budget changes you're dealing with.\n\nGood news on timing: our policy allows annual plans to be refunded in full within 14 days of purchase or renewal, and your renewal was charged yesterday, so you are within that window. Because the amount is above $200, the refund requires manager approval, so I can't confirm it on my own. I'm flagging your request for that approval now so it can be reviewed as quickly as possible.\n\nOnce approved, refunds go back to the original payment method and arrive in 5-10 business days.\n\nIf you'd like to avoid any future renewals, you can also cancel under Settings > Billing > Cancel plan. Access continues until the end of the billing period, and your data is retained for 90 days after cancellation. Note that if the refund is issued, we'll confirm with you how that affects your access.\n\nWe'll follow up as soon as the manager has reviewed your request.\n\nThe Acme Support Team",
+   "confidence": 0.55,
+   "source_doc_ids": [
+    "KB-03",
+    "KB-04"
+   ],
+   "reasoning": "The refund falls within the 14-day full-refund window, but the $33,600 amount requires manager approval (staff action), the customer is frustrated and a churn risk, and the KB doesn't cover Enterprise-specific contract terms or post-refund access."
+  },
+  "source": "live"
+ },
+ "T-1011": {
+  "ticketId": "T-1011",
+  "triage": {
+   "category": "how-to",
+   "urgency": "low",
+   "sentiment": "positive",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Customer asks how to set up Slack notifications."
+  },
+  "draft": {
+   "reply": "Hi Priya,\n\nThanks for reaching out, and great to hear you'd like to get Acme notifications into Slack. Setup is quick:\n\n1. Go to Settings > Integrations > Slack.\n2. Authorize your Slack workspace when prompted.\n\nOne tip: if notifications ever stop, simply reconnect the integration, as tokens expire after 90 days of inactivity.\n\nLet us know if you run into any trouble.\n\nBest,\nThe Acme Support Team",
+   "confidence": 0.97,
+   "source_doc_ids": [
+    "KB-09"
+   ],
+   "reasoning": "KB-09 directly covers connecting Slack and the reconnect tip, fully resolving this simple how-to question."
+  },
+  "source": "live"
+ },
+ "T-1015": {
+  "ticketId": "T-1015",
+  "triage": {
+   "category": "bug",
+   "urgency": "high",
+   "sentiment": "frustrated",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Android 12 user reports the app crashes immediately on launch."
+  },
+  "draft": {
+   "reply": "Hi Nina,\n\nI'm sorry the app is crashing on launch, that's frustrating. Android 12 is supported, so let's try the standard fix:\n\n1. Update the app to the latest version.\n2. Clear the app's cache (Settings > Storage).\n\nIf it still crashes after that, let us know and we'll look into it further. Please include your app version so we can dig in.\n\nThe Acme Support Team",
+   "confidence": 0.7,
+   "source_doc_ids": [
+    "KB-14"
+   ],
+   "reasoning": "KB-14 covers app crashes on launch with update and clear cache steps, and Android 12 is supported; the KB offers no further steps for Android if those fail, so confidence is moderate."
+  },
+  "source": "live"
+ },
+ "T-1013": {
+  "ticketId": "T-1013",
+  "triage": {
+   "category": "billing",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Mei Tanaka of Tanaka Textiles requests a PDF invoice for last month that includes their VAT number."
+  },
+  "draft": {
+   "reply": "Hi Mei,\n\nThanks for reaching out. You can download last month's invoice as a PDF under Settings > Billing > Invoices.\n\nTo get your VAT number on it, please add or update your VAT ID under Billing details first. Be aware that changes there only apply to future invoices, so they won't appear on invoices that have already been issued. Since you need it on last month's invoice, just reply with your VAT ID and confirm the invoice you need, and our team can reissue the past invoice on request.\n\nBest regards,\nThe Acme Support Team",
+   "confidence": 0.8,
+   "source_doc_ids": [
+    "KB-05"
+   ],
+   "reasoning": "KB-05 covers downloading invoices, updating VAT ID for future invoices only, and support reissuing past invoices on request, which fits this request, though staff must perform the reissue."
+  },
+  "source": "live"
+ },
+ "T-1012": {
+  "ticketId": "T-1012",
+  "triage": {
+   "category": "account",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": true,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "James Wright of Wright Consulting (Starter, $29/mo) asks how to cancel because the project is winding down."
+  },
+  "draft": {
+   "reply": "Hi James,\n\nThanks for letting us know, and thank you for being an Acme customer. Here's how to cancel:\n\n1. Go to Settings > Billing > Cancel plan.\n2. Confirm the cancellation.\n\nYour access will continue until the end of your current billing period. Your data is retained for 90 days after cancellation, so you can still export it if needed. You can do that under Settings > Data > Export, which creates a CSV/JSON archive of all your projects. Large exports are emailed within 30 minutes.\n\nIf you'd rather not cancel fully, you can also pause your plan for up to 3 months from the same Billing page.\n\nBest wishes with wrapping up the project.\n\nThe Acme Support Team",
+   "confidence": 0.95,
+   "source_doc_ids": [
+    "KB-04",
+    "KB-08"
+   ],
+   "reasoning": "KB-04 directly covers the cancellation steps, access until period end, 90-day data retention and pause option, and KB-08 covers exporting data; no staff action is needed."
+  },
+  "source": "live"
+ },
+ "T-1014": {
+  "ticketId": "T-1014",
+  "triage": {
+   "category": "account",
+   "urgency": "high",
+   "sentiment": "frustrated",
+   "churn_risk": true,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Enterprise customer Oliver Grant (Grant & Co, $3500/mo) is considering switching to a competitor citing slow support, unshipped feature requests, and a 30% lower offer."
+  },
+  "draft": {
+   "reply": "Hi Oliver,\n\nThank you for being direct, and I'm sorry that slow support and feature requests that haven't shipped have left you frustrated. That's not the experience we want for an Enterprise customer.\n\nI can't offer pricing changes or make commitments on delivery dates for individual features, so I don't want to promise anything I can't guarantee. What I can do is share where things stand: our public roadmap is at roadmap.example.com, where you can upvote or submit the requests that matter most to your team. Dark mode and SSO audit logs are currently planned.\n\nGiven the size of your account and how long you've been dissatisfied, I'd like to bring in a member of our team who can speak with you directly about your support experience, your outstanding requests, and your options. Please let us know the best way and time to reach you, and we'll make sure someone gets back to you promptly.\n\nThank you again for the honest feedback.\n\nThe Acme Support Team",
+   "confidence": 0.3,
+   "source_doc_ids": [
+    "KB-15"
+   ],
+   "reasoning": "The KB has no retention, pricing or support-SLA information, so only the roadmap can be cited; this high-value, frustrated Enterprise churn-risk customer needs a human (account management/sales) follow-up."
+  },
+  "source": "live"
+ },
+ "T-1020": {
+  "ticketId": "T-1020",
+  "triage": {
+   "category": "billing",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Customer Isabelle Roy (Roy Events, Starter plan) requests changing the billing email to accounts@royevents.com."
+  },
+  "draft": {
+   "reply": "Hi Isabelle,\n\nThanks for reaching out. You can update the billing email yourself in just a minute:\n\n1. Go to Settings > Billing.\n2. Open Billing details and change the billing email to accounts@royevents.com.\n3. Save your changes.\n\nPlease note that changes apply to future invoices only. If you'd like any past invoices reissued with the new details, just let us know and we'll be happy to do that for you.\n\nThe Acme Support Team",
+   "confidence": 0.95,
+   "source_doc_ids": [
+    "KB-05"
+   ],
+   "reasoning": "KB-05 directly covers changing the billing email via Billing details, including that changes apply to future invoices and that support can reissue past invoices on request."
+  },
+  "source": "live"
+ },
+ "T-1016": {
+  "ticketId": "T-1016",
+  "triage": {
+   "category": "feature-request",
+   "urgency": "low",
+   "sentiment": "positive",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Customer asks whether dark mode is planned, noting eye strain at night."
+  },
+  "draft": {
+   "reply": "Hi Ben,\n\nThanks for the note, and sorry about the eye strain! Good news: dark mode is currently on our planned list. We can't commit to a release date for individual features, but you can follow progress and upvote it on our public roadmap at roadmap.example.com. Upvotes help us gauge demand.\n\nIf there's anything else you'd like to see, you're welcome to submit it there too.\n\nBest regards,\nThe Acme Support Team",
+   "confidence": 0.95,
+   "source_doc_ids": [
+    "KB-15"
+   ],
+   "reasoning": "KB-15 states dark mode is planned, that no dates can be committed, and points to the public roadmap, fully covering the question."
+  },
+  "source": "live"
+ },
+ "T-1019": {
+  "ticketId": "T-1019",
+  "triage": {
+   "category": "other",
+   "urgency": "medium",
+   "sentiment": "frustrated",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Customer's package has been stuck at the same shipping hub for 6 days and they are asking what to do next."
+  },
+  "draft": {
+   "reply": "Hi Yuki,\n\nThank you for reaching out, and I'm sorry your package has been stuck for so long. Since your tracking has shown no movement for more than 5 days, this qualifies for a carrier investigation, and we'll open one for you.\n\nTo help us get started, please reply with your order number and the tracking number or link shown under Account > Orders. Once the investigation is open, we'll follow up with you.\n\nThanks for your patience.\n\nThe Acme Support Team",
+   "confidence": 0.8,
+   "source_doc_ids": [
+    "KB-01"
+   ],
+   "reasoning": "KB-01 states that tracking with no movement for 5 days warrants contacting support to open a carrier investigation, which matches this case; however, staff must actually open the investigation and the KB gives no resolution timeline.",
+   "confidence_note": null
+  },
+  "source": "live"
+ },
+ "T-1017": {
+  "ticketId": "T-1017",
+  "triage": {
+   "category": "account",
+   "urgency": "medium",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Customer Fatima Al-Sayed (Starter plan) is locked out after losing her authenticator app and backup codes when switching phones, and needs help regaining account access."
+  },
+  "draft": {
+   "reply": "Hi Fatima,\n\nThanks for reaching out, and sorry for the hassle. Since you no longer have your authenticator app or your backup codes, our support team needs to verify your identity before we can disable 2FA on your account. This takes up to 24 hours.\n\nPlease reply to this message and we'll start the verification process. Once 2FA is disabled and you're back in, we recommend going to Settings > Security to set it up again with your new phone's authenticator app, and saving the 10 new backup codes somewhere safe.\n\nThe Acme Support Team",
+   "confidence": 0.8,
+   "source_doc_ids": [
+    "KB-10"
+   ],
+   "reasoning": "KB-10 directly covers losing both the device and backup codes (identity verification by support, up to 24 hours), but the KB doesn't specify what verification steps are required, and staff action is needed to disable 2FA."
+  },
+  "source": "live"
+ },
+ "T-1018": {
+  "ticketId": "T-1018",
+  "triage": {
+   "category": "sales",
+   "urgency": "medium",
+   "sentiment": "positive",
+   "churn_risk": false,
+   "upsell": true,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Greg Hall of Hall Studios wants to upgrade from Pro to Enterprise for 80 employees, needing SSO and custom contracts, and asks who handles Enterprise pricing."
+  },
+  "draft": {
+   "reply": "Hi Greg,\n\nThanks for reaching out, and congratulations on the growth at Hall Studios! Enterprise plans use custom pricing, and seat pricing for Enterprise is handled by our sales team. They're the right people to talk to about pricing and custom contract terms for your 80 employees.\n\nI don't have details in front of me on SSO specifics or a direct sales contact, so I can't confirm those here. I'd suggest replying to this ticket with a good time to talk and the details you need (SSO requirements, contract terms), and we'll make sure it gets to the sales team. If you'd like to see which Enterprise-related ideas are planned, our public roadmap is at roadmap.example.com.\n\nBest regards,\nThe Acme Support Team",
+   "confidence": 0.55,
+   "source_doc_ids": [
+    "KB-06",
+    "KB-07",
+    "KB-15"
+   ],
+   "reasoning": "The KB confirms Enterprise pricing is custom and handled by sales, but it has no sales contact details or SSO info, and handing the lead to sales needs staff action."
+  },
+  "source": "live"
+ },
+ "T-1024": {
+  "ticketId": "T-1024",
+  "triage": {
+   "category": "sales",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": true,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Customer on the Starter plan asks the cost of adding 3 more team members."
+  },
+  "draft": {
+   "reply": "Hi Chloe,\n\nThanks for reaching out! On the Starter plan, seats cost $12 per user/month, so adding 3 team members would be $36/month in total. Seats are billed pro-rata, so you'll only pay for the portion of the current cycle that remains.\n\nTo add them, an admin can invite users under Settings > Team. If you later remove a user, billing for that seat stops at the next cycle.\n\nLet us know if you have any other questions.\n\nThe Acme Support Team",
+   "confidence": 0.95,
+   "source_doc_ids": [
+    "KB-06"
+   ],
+   "reasoning": "KB-06 states Starter seats are $12 per user/month billed pro-rata, so 3 seats = $36/month, fully answering the question."
+  },
+  "source": "live"
+ },
+ "T-1022": {
+  "ticketId": "T-1022",
+  "triage": {
+   "category": "billing",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Customer asks whether they can pause their Starter subscription over winter instead of cancelling."
+  },
+  "draft": {
+   "reply": "Hi Anna,\n\nYes, you can pause instead of cancelling. You can pause your subscription for up to 3 months. Go to Settings > Billing > Cancel plan, where the pause option is on the same page.\n\nIf you do decide to cancel instead, your access continues until the end of the current billing period, and your data is retained for 90 days after cancellation.\n\nLet us know if you have any other questions.\n\nThe Acme Support Team",
+   "confidence": 0.9,
+   "source_doc_ids": [
+    "KB-04"
+   ],
+   "reasoning": "KB-04 directly confirms pausing is available for up to 3 months from the Billing page; it doesn't specify how billing or access behaves during a pause, so I avoided making claims about that."
+  },
+  "source": "live"
+ },
+ "T-1021": {
+  "ticketId": "T-1021",
+  "triage": {
+   "category": "account",
+   "urgency": "high",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": true,
+   "security_issue": false,
+   "summary": "Enterprise customer Marcus Webb (Webb Capital) formally requests deletion of all personal data under GDPR Article 17 and written confirmation."
+  },
+  "draft": {
+   "reply": "Hi Marcus,\n\nThank you for your message. We've received your formal request under GDPR Article 17 to delete all personal data in the Webb Capital workspace, along with written confirmation.\n\nData deletion requests can't be handled by general support. They must be handled by our security team, so please send this request to them directly so it can be processed and documented properly. Please include your workspace details and a copy of your request so nothing is lost.\n\nWe appreciate your patience, and we're sorry we can't process this one directly.\n\nBest regards,\nThe Acme Support Team",
+   "confidence": 0.45,
+   "source_doc_ids": [
+    "KB-13"
+   ],
+   "reasoning": "KB-13 says data deletion requests must go to the security team and are never handled by general support, and the KB gives no contact route or timeline, so staff must forward this legal request and a human should follow up."
+  },
+  "source": "live"
+ },
+ "T-1023": {
+  "ticketId": "T-1023",
+  "triage": {
+   "category": "bug",
+   "urgency": "high",
+   "sentiment": "frustrated",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Customer reports Zapier integration zaps have stopped firing since last week without any changes on their end."
+  },
+  "draft": {
+   "reply": "Hi David,\n\nSorry for the disruption to your zaps. Here's what we'd suggest:\n\n1. Reconnect the integration. Integration tokens expire after 90 days of inactivity, which can stop zaps from firing even when nothing has changed on your side.\n2. For Zapier, your API key is in Settings > API. Make sure the key in your Zapier connection matches the one shown there, and reconnect the account in Zapier if needed.\n3. If errors are showing up across the whole product, not just Zapier, please check status.example.com for any ongoing incident.\n\nIf the zaps still don't fire after reconnecting, reply here with the name of an affected zap and roughly when it last worked, and we'll take a closer look.\n\nThe Acme Support Team",
+   "confidence": 0.72,
+   "source_doc_ids": [
+    "KB-09",
+    "KB-12"
+   ],
+   "reasoning": "KB-09 covers reconnecting Zapier and token expiry, which is a likely cause, but the root cause for this customer is unconfirmed and may need staff investigation if reconnecting doesn't help."
+  },
+  "source": "live"
+ },
+ "T-1025": {
+  "ticketId": "T-1025",
+  "triage": {
+   "category": "refund",
+   "urgency": "medium",
+   "sentiment": "frustrated",
+   "churn_risk": true,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Customer requests a refund of the $79 Pro plan auto-renewal charged yesterday, stating they have not used the service this month."
+  },
+  "draft": {
+   "reply": "Hi Viktor,\n\nThanks for reaching out, and I'm sorry the renewal caught you off guard. Since your Pro plan renewed yesterday, you're within our 14-day window for a full refund of renewal charges. The $79 is also below the $200 threshold that requires manager approval.\n\nI can't process the refund myself in this chat, so I've flagged your request for our billing team to action. Once approved, the refund goes back to your original payment method and typically arrives within 5-10 business days.\n\nIf you'd also like to avoid future renewals, you can cancel under Settings > Billing > Cancel plan. Access continues until the end of the billing period, and your data is kept for 90 days after cancellation. You can also pause for up to 3 months from the same page.\n\nLet us know if you'd like help with anything else.\n\nThe Acme Support Team",
+   "confidence": 0.72,
+   "source_doc_ids": [
+    "KB-03",
+    "KB-04"
+   ],
+   "reasoning": "KB-03 clearly makes the renewal refund eligible (within 14 days, under $200), but actually issuing the refund requires staff action and the customer is frustrated with churn risk, so a human should confirm."
+  },
+  "source": "live"
+ },
+ "T-1026": {
+  "ticketId": "T-1026",
+  "triage": {
+   "category": "bug",
+   "urgency": "high",
+   "sentiment": "frustrated",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Starter customer Laura Jensen reports errors across the service and asks whether it is down."
+  },
+  "draft": {
+   "reply": "Hi Laura,\n\nI'm sorry you're running into errors, I know how disruptive that is. Since you're seeing errors across the whole product, please check our live status page first at status.example.com. It will show whether there is a current outage.\n\nIf the status page shows everything as operational, reply with the exact error message or code you're seeing, what you were doing when it appeared, and roughly when it started, and we'll dig in further.\n\nThe Acme Support Team",
+   "confidence": 0.72,
+   "source_doc_ids": [
+    "KB-12"
+   ],
+   "reasoning": "KB-12 directs customers seeing product-wide errors to the status page, but I can't confirm whether an outage is actually happening, so the root cause may need follow-up."
+  },
+  "source": "live"
+ },
+ "T-1027": {
+  "ticketId": "T-1027",
+  "triage": {
+   "category": "how-to",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Customer asks whether SSO sign-in audit logs are supported, requested by their compliance team."
+  },
+  "draft": {
+   "reply": "Hi Sam,\n\nThanks for reaching out. SSO audit logs are not available today, but they are currently on our planned roadmap. We can't commit to a date for any individual feature, so I'd avoid building compliance plans around a specific timeline.\n\nYou can follow progress, upvote the idea and add your compliance team's use case at roadmap.example.com. Seeing real requirements from customers like Rivera Tech helps us prioritize.\n\nIf you'd like, I can also share what we have on security and compliance: we are SOC 2 Type II certified and GDPR compliant, with data encrypted at rest and in transit.\n\nBest regards,\nThe Acme Support Team",
+   "confidence": 0.85,
+   "source_doc_ids": [
+    "KB-15",
+    "KB-13"
+   ],
+   "reasoning": "KB-15 states SSO audit logs are planned with no committed dates, which answers the question; the KB doesn't say whether any current partial audit capability exists, so a small gap remains."
+  },
+  "source": "live"
+ },
+ "T-1029": {
+  "ticketId": "T-1029",
+  "triage": {
+   "category": "sales",
+   "urgency": "low",
+   "sentiment": "neutral",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Pro customer Pavel Ivanov asks for the difference between the Starter and Pro plans."
+  },
+  "draft": {
+   "reply": "Hi Pavel,\n\nThanks for reaching out. Here's what I can share from our plan details:\n\n- Starter: $29/mo. Additional seats are $12 per user/month.\n- Pro: $79/mo (your current plan). Additional seats are $20 per user/month. Pro also includes API access to your data and a 99.9% uptime SLA.\n- Enterprise: custom pricing, with custom seat pricing handled by our sales team and a 99.99% uptime SLA.\n\nI don't have a full feature-by-feature comparison beyond these points, so if you're weighing a specific feature, let us know and we'll check it for you. If you'd like to change plans, you can do so under Settings > Billing > Change plan. Upgrades apply immediately and are prorated, while downgrades take effect at your next renewal.\n\nBest regards,\nThe Acme Support Team",
+   "confidence": 0.6,
+   "source_doc_ids": [
+    "KB-07",
+    "KB-06",
+    "KB-08",
+    "KB-12"
+   ],
+   "reasoning": "The KB covers prices, seat costs, API access and SLA differences, but has no complete feature comparison between Starter and Pro, so the answer is only partial."
+  },
+  "source": "live"
+ },
+ "T-1030": {
+  "ticketId": "T-1030",
+  "triage": {
+   "category": "billing",
+   "urgency": "high",
+   "sentiment": "frustrated",
+   "churn_risk": false,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Enterprise customer Grace Lee (Lee & Lee) reports a 3-hour outage Tuesday breaching the 99.99% uptime SLA and requests the contractual credit on the next invoice."
+  },
+  "draft": {
+   "reply": "Hi Grace,\n\nThank you for flagging this, and I'm sorry about the disruption to your team on Tuesday.\n\nYour Enterprise plan includes a 99.99% uptime SLA, and service credits for SLA breaches are handled by our account management team. I can't confirm or apply a credit from the support desk, so I'm passing your request to them. Please include the date and time window of the outage and any reference to the relevant contract clause so they can review it quickly. You can also check status.example.com for the service status history.\n\nI haven't made any commitment on the credit amount or timing, as that will be confirmed by account management.\n\nKind regards,\nThe Acme Support Team",
+   "confidence": 0.45,
+   "source_doc_ids": [
+    "KB-12"
+   ],
+   "reasoning": "KB-12 says SLA credits are handled by account management, so staff action is required and the support agent cannot confirm or apply the credit; a frustrated Enterprise customer needs a human handoff."
+  },
+  "source": "live"
+ },
+ "T-1028": {
+  "ticketId": "T-1028",
+  "triage": {
+   "category": "billing",
+   "urgency": "high",
+   "sentiment": "angry",
+   "churn_risk": true,
+   "upsell": false,
+   "legal_threat": false,
+   "security_issue": false,
+   "summary": "Customer on Starter plan says she was charged twice this month and threatens to cancel and publicly complain unless fixed immediately."
+  },
+  "draft": {
+   "reply": "Hi Zoe,\n\nI'm sorry about the double charge, and I understand how frustrating that is. I want to get this sorted for you properly.\n\nOur knowledge base doesn't give me a way to confirm from here why you were billed twice, so I'm not able to verify the charges or issue a correction myself. Here is what I can tell you:\n\n- Monthly plans can be refunded in full within 14 days of purchase or renewal, and refunds go back to the original payment method within 5-10 business days.\n- You can find your invoices under Settings > Billing > Invoices. If you can reply with the dates and amounts of the two charges (or a screenshot of your invoices or bank statement), that will help our team review them.\n\nI'm flagging this as a priority billing issue so a team member can look into it and follow up with you personally.\n\nThank you for your patience, Zoe.\n\nThe Acme Support Team",
+   "confidence": 0.3,
+   "source_doc_ids": [
+    "KB-03",
+    "KB-05"
+   ],
+   "reasoning": "The KB covers refund timelines and invoice location but not how to investigate or reverse a duplicate charge, and the customer is angry with churn risk, so staff must review the charge and follow up personally."
+  },
+  "source": "live"
+ }
+}

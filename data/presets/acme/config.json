@@ -1,0 +1,1 @@
+{"company":"Acme","tone":"warm, concise, professional","currency":"$","refundCap":200,"highValue":1000,"escalationTopics":"legal threats, security incidents, data deletion requests","preset":"acme","voiceAgentId":"","webhookUrl":"","labels":{"plan":"Plan","value":"MRR","unit":"/mo","lead":"Sales lead"}}
